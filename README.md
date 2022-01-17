@@ -12,4 +12,4 @@ In this chapter I learnt how to filter tables for rows satisfying some criteria 
 So far commands: WHERE AND , WHERE AND OR.
 
 
-<iframe src="https://me.me/embed/i/8d75b581346f47518092790782d534b3" width="500" height="340" frameBorder="0" class="meme-embed" style="max-width:100%;margin:0 auto;" allowFullScreen></iframe><p>via <a href="https://me.me">MEME</a></p>
+![BxXh](https://me.me/i/and-that-is-how-you-write-a-sql-query-5eet-8d75b581346f47518092790782d534b3)
