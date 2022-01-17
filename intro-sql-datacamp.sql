@@ -1,5 +1,5 @@
 --Intro to SQL for Data Science - DataCamp - 
--- We work a table people--
+-- TABLE people--
 --Part 1 SELECTING COLUMNS
 ---------------------------
 -- Onboarding | Tables
