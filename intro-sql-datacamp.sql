@@ -103,6 +103,59 @@ FROM films;
 SELECT COUNT(DISTINCT country)
 FROM films;
 
+--Simple filtering of numeric values--
+--Get all details for all films released in 2016.
+SELECT *
+FROM films 
+WHERE release_year = 2016;
+
+--Get the number of films released before 2000.--
+SELECT COUNT(*)
+FROM films
+WHERE release_year < 2000
+
+--Get the title and release year of films released after 2000.
+SELECT title , release_year
+FROM films
+WHERE release_year > 2000;
+
+-- Simple filtering of text--
 
 
+--Get all details for all French language films.
+SELECT *
+FROM films
+WHERE language = 'French';
+
+--Get the name and birth date of the person born on November 11th, 1974. Remember to use ISO date format ('1974-11-11')!
+SELECT name, birthdate
+FROM people
+WHERE birthdate = '1974-11-11';
+
+-- Get the number of Hindi language films.
+SELECT COUNT (*)
+FROM films
+WHERE language = 'Hindi'
+
+--Get all details for all films with an R certification.
+SELECT *
+FROM films
+WHERE certification = 'R';
+
+--WHERE AND--
+
+--Get the title and release year for all Spanish language films released before 2000.
+SELECT title, release_year
+FROM films
+WHERE language = 'Spanish' AND release_year < 2000;
+
+--Get all details for Spanish language films released after 2000.
+SELECT *
+FROM films
+WHERE language = 'Spanish' AND release_year > 2000;
+
+--Get all details for Spanish language films released after 2000, but before 2010.
+SELECT *
+FROM films
+WHERE language = 'Spanish' AND release_year > 2000 AND  release_year < 2010; 
 
